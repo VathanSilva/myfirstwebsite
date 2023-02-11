@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "burtons";
+  src: url("../public/Burtons.otf");
+  font-family: "self";
+  src: url("../public/Self.ttf");
+}
+.type {
+  font-size: 45px;
+	font-weight: 700;
+  animation: flow 30s ease-in-out infinite;
+  background: linear-gradient(-60deg, #f30222, #fa7a03, #e73c7e, #ee7752);
+  background-size: 300%;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fran {
+  font-size: 45px;
+	font-weight: 700;
+  animation: flow 30s ease-in-out infinite;
+  background: linear-gradient(-60deg, #f30222, #fa7a03, #e73c7e, #ee7752);
+  background-size: 300%;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes flow {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.skill {
+  padding: 1px 0 50px 0;
+  position: relative;
+}
+.effect {
+  border-radius: 64px;
+}
+.skill-bx {
+  background: #111111;
+  border-radius: 24px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: auto;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.skill h2 {
+  font-size: 45px;
+	font-weight: 700;
+  animation: flow 30s ease-in-out infinite;
+  background: linear-gradient(-60deg, #0d6bad, #28eda7, #e73c7e, #f54ca4);
+  background-size: 300%;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.skill p {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+.skill-slider {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.skill-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
+.item {
+  color: #9a3688;
+}
+
+.software {
+  padding: 1px 0 50px 0;
+  position: relative;
+}
+.software-bx {
+  background: #111111;
+  border-radius: 24px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: auto;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.software h2 {
+  font-size: 45px;
+	font-weight: 700;
+  animation: flow 30s ease-in-out infinite;
+  background: linear-gradient(-60deg, #fe993a, #53e350, #e73c7e, #ee7752);
+  background-size: 300%;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.software p {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+.software-slider {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.software-slider .item1 img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+.background-image-left1 {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
+.item1 {
+  color: #fcba03;
+}
+.iot {
+  font-size: 25px;
+	font-weight: 700;
+  animation: flow 30s ease-in-out infinite;
+  background: linear-gradient(-60deg, #0d6bad, #28eda7, #e73c7e, #f54ca4);
+  background-size: 300%;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.spline {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  right: 0;
+  width: 1200px;
+  height: 1000px;
+}

@@ -1,0 +1,52 @@
+{
+  "name": "myfirstwebsite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "yarn install && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.18.6",
+    "@chakra-ui/react": "^2.4.6",
+    "@emotion/babel-plugin": "^11.10.5",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@heroicons/react": "^1.0.6",
+    "@splinetool/react-spline": "^2.2.5",
+    "@splinetool/runtime": "^0.9.154",
+    "@types/react-dom": "^18.0.9",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "framer-motion": "^6",
+    "next": "^13.1.2",
+    "next-themes": "^0.2.1",
+    "nodemailer": "^6.8.0",
+    "react": "^18.2.0",
+    "react-blink-text": "^1.0.5",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "react-mailchimp-subscribe": "^2.1.3",
+    "react-multi-carousel": "^2.8.2",
+    "react-on-screen": "^2.1.1",
+    "react-rotating-text": "^1.4.1",
+    "react-router-dom": "^6.4.3",
+    "react-router-hash-link": "^2.4.3",
+    "react-spline": "^1.1.0",
+    "react-text-rotator": "^1.2.0",
+    "react-youtube": "^10.1.0",
+    "styled": "^1.0.0",
+    "styled-components": "^5.3.6",
+    "typewriter-effect": "^2.19.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
+  }
+}

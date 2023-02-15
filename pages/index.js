@@ -11,6 +11,10 @@ import { Footer } from '../components/Footer';
 
 export default function Home() {
 
+  const UnoptimizedImage = (props) => {
+    return <Image {...props} unoptimized />
+  };
+
 
   return (
     

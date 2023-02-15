@@ -23,6 +23,10 @@ export const Electronics = () => {
     }
   };
 
+  const UnoptimizedImage = (props) => {
+    return <Image {...props} unoptimized />
+  };
+
   return (
     <><><div className="relative">
       <div className="absolute inset-0 mt-5 ml-32 mr-32 bg-pink-600 bottom-12 rounded-3xl blur"></div>

@@ -38,10 +38,6 @@ export const Softwares = () => {
     }
   };
 
-  const UnoptimizedImage = (props) => {
-    return <Image {...props} unoptimized />
-  };
-
   return (
     <div className="relative">
       <div className="absolute inset-0 ml-32 mr-32 bg-yellow-500 bottom-12 rounded-3xl blur"></div>

@@ -11,10 +11,6 @@ import { Footer } from '../components/Footer';
 
 export default function Home() {
 
-  const UnoptimizedImage = (props) => {
-    return <Image {...props} unoptimized />
-  };
-
 
   return (
     
@@ -31,7 +27,7 @@ export default function Home() {
 
           
           <div className='relative justify-center top-16 mx-auto bg-gradien-to-b m-auto from-teal-500 rounded-full w-80 h-80 overflow-hidden'>
-            <Image src={deved} layout="fill" objectFit="cover"/>
+            <Image src={deved} layout="fill" objectFit="cover" priority/>
           </div>
           <div className='text-center'>
             <div className='pt-20'>

@@ -72,49 +72,49 @@ export const Designs = () => {
                 <div>
                   <ul className="items-center mt-3 justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                     <li>
-                      <Image src={logo1}  width={400} height={400}/>
+                      <Image src={logo1}  width={400} height={400} priority/>
                     </li>
                     <li>
-                      <Image src={logo2} width={400} height={400}/>
+                      <Image src={logo2} width={400} height={400} priority/>
                     </li>
                     <li>
-                      <Image src={logo3} width={400} height={400}/>
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <ul className="items-center mt-3 justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                    <li>
-                      <Image src={logo4} width={400} height={400}/>
-                    </li>
-                    <li>
-                      <Image src={logo5} width={400} height={400}/>
-                    </li>
-                    <li>
-                      <Image src={logo6} width={400} height={400}/>
+                      <Image src={logo3} width={400} height={400} priority/>
                     </li>
                   </ul>
                 </div>
                 <div>
                   <ul className="items-center mt-3 justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                     <li>
-                      <Image src={logo7} width={400} height={400}/>
+                      <Image src={logo4} width={400} height={400} priority/>
                     </li>
                     <li>
-                      <Image src={logo8} width={400} height={400}/>
+                      <Image src={logo5} width={400} height={400} priority/>
                     </li>
                     <li>
-                      <Image src={logo9} width={400} height={400}/>
+                      <Image src={logo6} width={400} height={400} priority/>
                     </li>
                   </ul>
                 </div>
                 <div>
                   <ul className="items-center mt-3 justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                     <li>
-                      <Image src={logo10} width={400} height={400}/>
+                      <Image src={logo7} width={400} height={400} priority/>
                     </li>
                     <li>
-                      <Image src={logo11} width={400} height={400}/>
+                      <Image src={logo8} width={400} height={400} priority/>
+                    </li>
+                    <li>
+                      <Image src={logo9} width={400} height={400} priority/>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <ul className="items-center mt-3 justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                    <li>
+                      <Image src={logo10} width={400} height={400} priority/>
+                    </li>
+                    <li>
+                      <Image src={logo11} width={400} height={400} priority/>
                     </li>
                   </ul>
                 </div>

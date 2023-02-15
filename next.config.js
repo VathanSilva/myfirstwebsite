@@ -1,16 +1,16 @@
-const optimizedImages = require('next-optimized-images');
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
 }
+const withPlugins = require('next-compose-plugins');
+const optimizedImages = require('next-optimized-images');
 
-module.exports = withPlugins([optimizedImages],nextConfiguration);
 module.exports = {
   pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js'],
-  images: {
-    unoptimized: true,
-  },
 }
+
+module.exports = withPlugins([
+  optimizedImages,
+]);
 
 module.exports = nextConfig

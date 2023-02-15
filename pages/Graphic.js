@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import { Navbar } from './Navbar';
-import { Footer } from './Footer';
+import { Navbar } from '../components/Navbar';
+import { Footer } from '../components/Footer';
 import React from "react";
-import { Designs } from './Designs';
+import { Designs } from '../components/Designs';
 
 
 export default function Graphic() {

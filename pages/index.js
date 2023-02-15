@@ -4,10 +4,10 @@ import Image from "next/image";
 import deved from "../public/dev.png";
 import React from "react";
 import Typewriter from 'typewriter-effect';
-import { Skills } from './Skills';
-import { Softwares } from './Softwares';
-import { Navbar } from './Navbar';
-import { Footer } from './Footer';
+import { Skills } from '../components/Skills';
+import { Softwares } from '../components/Softwares';
+import { Navbar } from '../components/Navbar';
+import { Footer } from '../components/Footer';
 
 export default function Home() {
 

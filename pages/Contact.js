@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import { Navbar } from './Navbar';
-import { Footer } from './Footer';
+import { Navbar } from '../components/Navbar';
+import { Footer } from '../components/Footer';
 import React from "react";
-import { Form } from './Form';
+import { Form } from '../components/Form';
 
 
 export default function Contact() {

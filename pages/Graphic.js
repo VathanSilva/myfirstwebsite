@@ -23,7 +23,7 @@ export default function Graphic() {
               <h2 class="fran" className='text-5xl text-teal-600 font-medium'>Graphic Design</h2>
             </div>
             <div>
-				      <Designs/>
+				      {/* <Designs/> */}
              
 				
             </div>

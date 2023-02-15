@@ -40,6 +40,7 @@
     "react-spline": "^1.1.0",
     "react-text-rotator": "^1.2.0",
     "react-youtube": "^10.1.0",
+    "sharp": "^0.31.3",
     "styled": "^1.0.0",
     "styled-components": "^5.3.6",
     "typewriter-effect": "^2.19.0"

@@ -47,7 +47,7 @@ export default function Home() {
             B.Sc. (General) - Electronics & Embedded Systems (R)
             </p>
             <p className='text-md m-auto mx-5 leading-8 text-white'>I’m an enthusiastic individual presently seeking for the role of intern or an associate in the IT and Electronics sector. 
-              My primary interest lies in graphic design and project management. Being a selfmotivated, fast learner, I can multitask 
+              My primary interest lies in software engineering and graphic design. Being a selfmotivated, fast learner, I can multitask 
               and handle responsibilities from different job roles elegantly. I also consider myself a person with strong communication 
               skills both orally and in written forms. Thus, I actively engage in teamwork and am willing to contribute my best in any 
               tasks assigned for me.

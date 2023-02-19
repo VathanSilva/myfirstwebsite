@@ -84,9 +84,7 @@ export const Designs = () => {
                 </div>
                 <div>
                   <ul className="items-center mt-3 justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                    <li>
-                      <Image src={logo4} width={400} height={400} priority/>
-                    </li>
+                    
                     <li>
                       <Image src={logo5} width={400} height={400} priority/>
                     </li>

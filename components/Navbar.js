@@ -103,7 +103,7 @@ export const Navbar = () => {
                   <a className='nav-link text-white mt-3 ml-8' href="Graphic">Graphic Design</a>
                 </li>
                 <li class="nav-item">
-                  <a className='nav-link text-white mt-3 ml-8' href="Contact">Contact</a>
+                  <a className='nav-link text-white mt-3 ml-3' href="https://francis-webproject.vercel.app/#connect">My Web Projects</a>
                 </li>
               </ul>
             </div>

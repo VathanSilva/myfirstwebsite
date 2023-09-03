@@ -64,7 +64,7 @@ export const Footer = () => {
 			</div>
 			<div className="flex flex-col justify-center items-center text-center bg-gray-50">
 				<p className=" text-gray-800 font-semibold">
-					© 2022 Build ❤ By{" "}
+					© 2023 Build By{" "}
 					<span className="hover:text-blue-600 font-semibold cursor-pointer">
 						Francis Silva{" "}
 					</span>

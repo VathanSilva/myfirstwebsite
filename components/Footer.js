@@ -26,13 +26,13 @@ export const Footer = () => {
 							<a className="nav-link" href="/">Home</a>
 						</li>
 						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							<a className="nav-link" href="Project">Project</a>
+							<a className="nav-link" href="Project">Electronics Project</a>
 						</li>
 						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
 							<a className="nav-link" href="Graphic">Graphic Design</a>
 						</li>
 						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							<a className="nav-link" href="Contact">Contact</a>
+							<a className="nav-link" href="https://francis-webproject.vercel.app/#connect">Web Projects</a>
 						</li>
 					</ul>
 				</div>
@@ -43,7 +43,7 @@ export const Footer = () => {
 							<a className="nav-link" href="Project">Electronics Projects</a>
 						</li>
 						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							<a className="nav-link" href="Project">Development Project</a>
+							<a className="nav-link" href="https://francis-webproject.vercel.app/#connect">Web Projects</a>
 						</li>
 					</ul>
 				</div>

@@ -40,7 +40,7 @@ export const Softwares = () => {
 
   return (
     <div className="relative">
-      <div className="absolute inset-0 ml-32 mr-32 bg-yellow-500 bottom-12 rounded-3xl blur"></div>
+      <div className="absolute inset-0 ml-32 mr-32 bottom-12 rounded-3xl blur"></div>
       <section className="software" id="softwares">
           <div className="container">
               <div className="row">

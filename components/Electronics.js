@@ -25,7 +25,7 @@ export const Electronics = () => {
 
   return (
     <><><div className="relative">
-      <div className="absolute inset-0 mt-5 ml-32 mr-32 bg-pink-600 bottom-12 rounded-3xl blur"></div>
+      <div className="absolute inset-0 mt-5 ml-32 mr-32 bottom-12 rounded-3xl blur"></div>
       <section className="skill" id="skills">
         <div className="container">
           <div className="row">
@@ -50,7 +50,7 @@ export const Electronics = () => {
                     <a href="https://github.com/VathanSilva/Arduino-IoT-Home-Automation-System-with-Alexa-App-using-ESP8266-and-Arduino-UNO">GitHub</a> - coding
                 </p>
 
-                <div className="ratio ratio-16x9 mt-4">
+                <div className="ratio ratio-16x9 soil mt-4">
                   <iframe src="https://youtube.com/embed/1UPYd1EZyW4" title="YouTube video" allowfullscreen></iframe>
                 </div>
 
@@ -63,7 +63,7 @@ export const Electronics = () => {
     </div>
 
       <div className="relative">
-        <div className="absolute inset-0 mt-5 ml-32 mr-32 bg-pink-600 bottom-12 rounded-3xl blur"></div>
+        <div className="absolute inset-0 mt-5 ml-32 mr-32 bottom-12 rounded-3xl blur"></div>
         <section className="skill" id="skills">
           <div className="container">
             <div className="row">
@@ -82,7 +82,7 @@ export const Electronics = () => {
                     5. Led <br />
                     6. Breadboard Jumper Wire
                   </div>
-                  <div className="ratio ratio-16x9 mt-5">
+                  <div className="ratio ratio-16x9 soil mt-5">
                     <iframe src="https://youtube.com/embed/z-6WbqYL_kM" title="YouTube video" allowfullscreen></iframe>
                   </div>
 
@@ -95,7 +95,7 @@ export const Electronics = () => {
       </div></>
       
       <div className="relative">
-        <div className="absolute inset-0 mt-5 ml-32 mr-32 bg-pink-600 bottom-12 rounded-3xl blur"></div>
+        <div className="absolute inset-0 mt-5 ml-32 mr-32 bottom-12 rounded-3xl blur"></div>
         <section className="skill" id="skills">
           <div className="container">
             <div className="row">
@@ -121,7 +121,7 @@ export const Electronics = () => {
                     <a href="https://github.com/VathanSilva/Self-Balancing-Robot">GitHub</a> - coding
                   </p>
 
-                  <div className="ratio ratio-16x9 mt-4">
+                  <div className="ratio ratio-16x9 soil mt-4">
                     <iframe src="https://youtube.com/embed/4lggMpiALKs" title="YouTube video" allowfullscreen></iframe>
                   </div>
 

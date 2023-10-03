@@ -59,7 +59,7 @@ export const Designs = () => {
 
   return (
     <><><div className="relative">
-      <div className="absolute inset-0 mt-5 ml-32 mr-32 bg-pink-600 bottom-12 rounded-3xl blur"></div>
+      <div className="absolute inset-0 mt-5 ml-32 mr-32 bottom-12 rounded-3xl blur"></div>
       <section className="skill" id="skills">
         <div className="container">
           <div className="row">
@@ -127,7 +127,7 @@ export const Designs = () => {
     </div>
 
       <div className="relative">
-        <div className="absolute inset-0 mt-5 ml-32 mr-32 bg-pink-600 bottom-12 rounded-3xl blur"></div>
+        <div className="absolute inset-0 mt-5 ml-32 mr-32 bottom-12 rounded-3xl blur"></div>
         <section className="skill" id="skills">
           <div className="container">
             <div className="row">
@@ -257,7 +257,7 @@ export const Designs = () => {
       </div></>
       
       <div className="relative">
-        <div className="absolute inset-0 mt-5 ml-32 mr-32 bg-pink-600 bottom-12 rounded-3xl blur"></div>
+        <div className="absolute inset-0 mt-5 ml-32 mr-32 bottom-12 rounded-3xl blur"></div>
         <section className="skill" id="skills">
           <div className="container">
             <div className="row">
@@ -268,22 +268,22 @@ export const Designs = () => {
                   </div>
                   
                   <p className='text-md m-auto mx-5 leading-8 text-white mt-4'>Youtube Intro video using After Effect Software.</p>
-                  <div className="ratio ratio-16x9 mt-4">
+                  <div className="ratio ratio-16x9 soil mt-4">
                     <iframe src="https://youtube.com/embed/Uzy6h7R420w" title="YouTube video" allowfullscreen></iframe>
                   </div>
                   
                   <p className='text-md m-auto mx-5 leading-8 text-white pt-10 mt-4'>Tamil Students' Committee - USJ AAROHANA Finalist video using After Effect Software.</p>
-                  <div className="ratio ratio-16x9 mt-4">
+                  <div className="ratio ratio-16x9 soil mt-4">
                     <iframe src="https://youtube.com/embed/xtT4jrgpeVo" title="YouTube video" allowfullscreen></iframe>
                   </div>
 
                   <p className='text-md m-auto mx-5 leading-8 text-white pt-10 mt-4'>Tamil Students' Committee - USJ Cricket match suspend video using After Effect Software.</p>
-                  <div className="ratio ratio-16x9 mt-4">
+                  <div className="ratio ratio-16x9 soil mt-4">
                     <iframe src="https://youtube.com/embed/O3xIxAAruh0" title="YouTube video" allowfullscreen></iframe>
                   </div>
 
                   <p className='text-md m-auto mx-5 leading-8 text-white pt-10 mt-4'>Tamil Students' Committee - USJ Cricket match Logo opener video using After Effect Software.</p>
-                  <div className="ratio ratio-16x9 mt-4">
+                  <div className="ratio ratio-16x9 soil mt-4">
                     <iframe src="https://youtube.com/embed/s9v3uHoO0Pg" title="YouTube video" allowfullscreen></iframe>
                   </div>
                   

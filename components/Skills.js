@@ -37,7 +37,7 @@ export const Skills = () => {
 
   return (
     <div className="relative">
-      <div className="absolute inset-0 ml-32 mr-32 bg-pink-600 bottom-12 rounded-3xl blur"></div>
+      <div className="absolute inset-0 ml-32 mr-32 bottom-12 rounded-3xl blur"></div>
       <section className="skill" id="skills">
           <div className="container">
               <div className="row">

@@ -34,7 +34,7 @@ import de19 from "../public/de19.jpg";
 import de20 from "../public/de20.jpg";
 import de21 from "../public/de21.jpg";
 import de22 from "../public/de22.jpg";
-
+import logo from "../public/logo.png";
 
 export const Designs = () => {
   const responsive = {
@@ -113,6 +113,9 @@ export const Designs = () => {
                     </li>
                     <li>
                       <Image src={logo11} width={400} height={400} priority/>
+                    </li>
+                    <li>
+                      <Image src={logo} width={400} height={400} priority/>
                     </li>
                   </ul>
                 </div>

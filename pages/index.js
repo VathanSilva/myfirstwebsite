@@ -52,7 +52,7 @@ export default function Home() {
               />
             </div>
             <p className="text-md leading-8 text-white text-2xl">
-              B.Sc. (General) - Electronics & Embedded Systems
+              B.Sc. (General) - Physical Science - ICT
             </p>
             <p className="text-md m-auto mx-5 leading-8 text-white">
               Hi! My primary interest lies in

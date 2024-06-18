@@ -15,9 +15,8 @@ export default function Home() {
 
 
   return (
-    
     <div>
-      <ParticlesContainer/>
+      <ParticlesContainer />
 
       <Head>
         <title>Francis Silva Portofolio</title>
@@ -25,58 +24,81 @@ export default function Home() {
         <link rel="icon" href="/dev.ico" />
       </Head>
 
-      <main className='bg-black'>
-        <section className='min-h-screen'>
+      <main className="bg-black">
+        <section className="min-h-screen">
           <Navbar />
 
-          
-          <div className='relative justify-center top-16 mx-auto bg-gradien-to-b m-auto from-teal-500 rounded-full w-80 h-80 overflow-hidden'>
-            <Image src={deved} layout="fill" objectFit="cover" priority/>
+          <div className="relative justify-center top-16 mx-auto bg-gradien-to-b m-auto from-teal-500 rounded-full w-80 h-80 overflow-hidden">
+            <Image src={deved} layout="fill" objectFit="cover" priority />
           </div>
-          <div className='text-center'>
-            <div className='pt-20'>
-              <h2 class="fran" className='text-5xl text-teal-600 font-medium'>Francis Silva</h2>
+          <div className="text-center">
+            <div className="pt-20">
+              <h2 class="fran" className="text-5xl text-teal-600 font-medium">
+                Francis Silva
+              </h2>
             </div>
-            <div class="type" className='text-2xl py-2'>
+            <div class="type" className="text-2xl py-2">
               <Typewriter
                 options={{
-                  strings: ["I'm a Developer.", "I'm a Designer.", "I'm a Video Editor."],
+                  strings: [
+                    "I'm a Developer.",
+                    "I'm a Designer.",
+                    "I'm a Video Editor.",
+                  ],
                   autoStart: true,
                   loop: true,
-                  pauseFor: ['5000']
+                  pauseFor: ["5000"],
                 }}
               />
             </div>
-            <p className='text-md leading-8 text-white text-2xl'>
-            B.Sc. (General) - Electronics & Embedded Systems (R)
+            <p className="text-md leading-8 text-white text-2xl">
+              B.Sc. (General) - Electronics & Embedded Systems (R)
             </p>
-            <p className='text-md m-auto mx-5 leading-8 text-white'>I’m an enthusiastic individual presently seeking for the role of intern or associate in the IT and electronics sectors. 
-              My primary interest lies in software engineering and graphic design. Being a selfmotivated, fast learner, I can multitask 
-              and handle responsibilities from different job roles elegantly. I also consider myself a person with strong communication 
-              skills, both orally and in written form. Thus, I actively engage in teamwork and am willing to contribute my best to any 
-              tasks assigned for me.
+            <p className="text-md m-auto mx-5 leading-8 text-white">
+              I’m an enthusiastic individual presently seeking for the role of
+              intern or associate in the IT and electronics sectors. My primary
+              interest lies in software engineering and graphic design. Being a
+              selfmotivated, fast learner, I can multitask and handle
+              responsibilities from different job roles elegantly. I also
+              consider myself a person with strong communication skills, both
+              orally and in written form. Thus, I actively engage in teamwork
+              and am willing to contribute my best to any tasks assigned for me.
             </p>
+            <div className="mt-5 relative">
+              <a href="/Francis Silva CV.pdf" download>
+                <button className="bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600 transition duration-300">
+                  Download CV
+                </button>
+              </a>
+            </div>
           </div>
-          <div className='text-5xl mt-5 flex justify-center gap-16'>
-            <a href="https://www.linkedin.com/in/vathan-silva/"><AiFillLinkedin color="#0a66c2"/></a>
-            <a href="https://www.youtube.com/channel/UCzWYas0cWXTT1YFgZQhLUyQ"><AiFillYoutube color="#ff0000"/></a>
-            <a href="https://github.com/VathanSilva"><AiFillGithub color="#ffffff"/></a>
+          <div className="relative">
+            <div className="text-5xl mt-5 flex justify-center gap-16">
+              <a href="https://www.linkedin.com/in/vathan-silva/">
+                <AiFillLinkedin color="#0a66c2" />
+              </a>
+              <a href="https://www.youtube.com/channel/UCzWYas0cWXTT1YFgZQhLUyQ">
+                <AiFillYoutube color="#ff0000" />
+              </a>
+              <a href="https://github.com/VathanSilva">
+                <AiFillGithub color="#ffffff" />
+              </a>
+            </div>
           </div>
-        
-          <br/>
-        
+
+          <br />
+
           <div>
-            <div className='mt-4'>
-              <Skills/>
+            <div className="mt-4">
+              <Skills />
             </div>
-            <div className='mt-5'>
-              <Softwares/>
+            <div className="mt-5">
+              <Softwares />
             </div>
           </div>
-        
         </section>
         <Footer />
       </main>
     </div>
-  )
+  );
 }

@@ -52,17 +52,16 @@ export default function Home() {
               />
             </div>
             <p className="text-md leading-8 text-white text-2xl">
-              B.Sc. (General) - Electronics & Embedded Systems (R)
+              B.Sc. (General) - Electronics & Embedded Systems
             </p>
             <p className="text-md m-auto mx-5 leading-8 text-white">
-              I’m an enthusiastic individual presently seeking for the role of
-              intern or associate in the IT and electronics sectors. My primary
-              interest lies in software engineering and graphic design. Being a
-              selfmotivated, fast learner, I can multitask and handle
-              responsibilities from different job roles elegantly. I also
-              consider myself a person with strong communication skills, both
-              orally and in written form. Thus, I actively engage in teamwork
-              and am willing to contribute my best to any tasks assigned for me.
+              Hi! My primary interest lies in
+              Web and App Development. Being a self-motivated, fast learner, I
+              can multitask and handle responsibilities from different job roles
+              elegantly. I also consider myself a person with strong
+              communication skills both orally and in written forms. Thus, I
+              actively engage in teamwork and am willing to contribute my best
+              in any task.
             </p>
             <div className="mt-5 relative">
               <a href="/Francis Silva CV.pdf" download>

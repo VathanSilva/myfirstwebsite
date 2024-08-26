@@ -1,15 +1,15 @@
-import Head from 'next/head'
-import {AiFillYoutube, AiFillLinkedin, AiFillGithub} from "react-icons/ai";
+import { Analytics } from "@vercel/analytics/react";
+import Head from 'next/head';
 import Image from "next/image";
-import deved from "../public/dev.png";
 import React from "react";
+import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import Typewriter from 'typewriter-effect';
+import { Footer } from '../components/Footer';
+import { Navbar } from '../components/Navbar';
+import ParticlesContainer from "../components/ParticlesContainer";
 import { Skills } from '../components/Skills';
 import { Softwares } from '../components/Softwares';
-import { Navbar } from '../components/Navbar';
-import { Footer } from '../components/Footer';
-import ParticlesContainer from "../components/ParticlesContainer";
-
+import deved from "../public/dev.png";
 
 export default function Home() {
 
@@ -97,6 +97,7 @@ export default function Home() {
           </div>
         </section>
         <Footer />
+        <Analytics />
       </main>
     </div>
   );

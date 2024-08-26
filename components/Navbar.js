@@ -1,7 +1,5 @@
-import { useEffect, useState } from "react";
-import {BsFillMoonStarsFill} from 'react-icons/bs';
-import Link from 'next/link';
 import "bootstrap/dist/css/bootstrap.css";
+import { useEffect, useState } from "react";
 
 export const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -45,7 +43,7 @@ export const Navbar = () => {
               <a className="nav-link" href="/">
                 <h1 className='text-20xl md:ml-28 text-white'>Francis Silva</h1>
               </a>
-              <div className="md:hidden">
+              <div className="md:hidden ml-5">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
@@ -89,7 +87,7 @@ export const Navbar = () => {
                 navbar ? 'block' : 'hidden'
               }`}
             >
-              <ul className="items-center justify-center md:ml-80 space-y-8 md:flex md:space-x-6 md:space-y-0">
+              <ul className="items-center justify-center md:ml-80 space-y-8 md:flex md:space-x-5 md:space-y-0">
                 <li class="nav-item">
                   
                 </li>

@@ -95,7 +95,7 @@ export const Navbar = () => {
                   <a className='nav-link text-white mt-3 ml-8' href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a className='nav-link text-white mt-3 ml-8' href="Project">Project</a>
+                  <a className='nav-link text-white mt-3 ml-8' href="Project">IOT Project</a>
                 </li>
                 <li class="nav-item">
                   <a className='nav-link text-white mt-3 ml-8' href="Graphic">Graphic Design</a>
